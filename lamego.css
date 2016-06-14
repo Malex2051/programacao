@@ -1,0 +1,687 @@
+@charset "uff-8";
+
+html, body {
+    box-sizing:border-box; 
+    width:100%;
+    margin: 0 auto;
+    color:rgb(31, 77, 75);
+        
+}
+
+
+.Nome{
+    color:aqua
+}
+
+
+
+@media screen and (max-width: 500px) {
+    
+   .colm_1 {width: 20%;}
+   .colm_2 {width: 40%;}
+   .colm_3 {width: 60%;}
+   .colm_4 {width: 80%;}
+   .colm_5 {width: 100%;}  
+    
+    [class*="colm_"] {
+        float: left;
+    }
+    
+   @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    .Nomem{
+        color:white;
+        position:absolute;
+        top:18%;
+        left:5%;
+        font-family: gymkhanabk;
+        font-size: 17px;
+    }
+    #nomevot a{
+        color:rgb(231, 99, 25);
+        font-size:30px;
+        
+    }
+    header{
+       width:100%;
+        height:250px;
+        background-color: rgb(31, 77, 75);
+        text-align: center;
+    }
+    
+    .torga{
+        position:absolute;
+        left:2%;
+        width:35%;
+        top:2%;
+        
+    }
+   
+    
+    .lemam{
+        background-color: rgb(31, 77, 75);
+        width:100%;
+        height:1300px;
+        
+    }
+    .foto{
+        width:100%;
+        height:370px;
+    }
+    
+    @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    #titulod{
+        position:absolute;
+        left:38%;
+        font-family: gymkhanabk;
+        font-size:30px;
+       margin-top: 10px;
+    }
+    
+@font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    
+    .dados{
+         font-family: gymkhanabk;
+        color:white;
+        margin-left:15px;
+        margin-top:40px;
+        
+        
+        
+    }
+    #titulod{
+        position:absolute;
+        left:38%;
+        font-family: gymkhanabk;
+        font-size:30px;
+       margin-top: 10px;
+        color:rgb(231, 99, 25);
+        top:95%;
+    }
+    
+    #scroll{
+        color:white;
+        text-decoration: none;
+    
+    }
+    
+    
+    main{
+        width:100%;
+        
+    }
+    
+    
+    @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    a{
+        color:rgb(231, 99, 25);
+        font-family: gymkhanabk;
+    }
+    #provedorm{
+        width:100%;
+        height:650px;
+        background-color:rgb(31, 77, 75);
+    
+    }
+    
+    @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    .ptexto{
+        font-family: gymkhanabk;
+        color:white;
+        
+    }
+     @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    .pnome{
+        text-align: center;
+        color:white;
+         font-size:25px;
+        font-family: gymkhanabk;
+        color:rgb(231, 99, 25);
+    }
+    #lamegom{
+        width:100%;
+        height:700px;
+        background-color:rgb(31, 77, 75);
+       
+    }
+     @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    h2 {
+	margin: 0 0 .2em;
+        font-family: gymkhanabk;
+        color:rgb(231, 99, 25);
+        text-align: center;
+}
+
+h2 em {
+	color: #999999;
+}
+
+.imagem {
+	border: solid 1px #ccc;
+	width: 100%;
+	height: 400px;
+	padding: 5px;
+}
+
+.thumbs img {
+	border: solid 1px #ccc;
+	width: 100px;
+	height: 100px;
+	padding: 4px;
+}
+
+.thumbs img:hover {
+	border-color: #ff9900;
+}
+    .botao{
+        position:absolute;
+        right:5%;
+        top:5%;
+        
+    }
+      @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    #votarlamego{
+        width:100%;
+        height:1000px;
+        background-color: rgb(31, 77, 75);
+        color:white;
+        font-family: gymkhanabk;
+        font-size: 15px;
+    }
+   
+     @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    .razoes{
+         font-family: gymkhanabk;
+        color:rgb(231, 99, 25);
+        text-align: center;
+        width:100%;
+        font-size: 20px;
+    }
+    
+   @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    footer{
+        
+        width:100%;
+        height:25px;
+        background-color: rgb(231, 99, 25);
+       
+    }
+     @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    .ftm{
+        font-family: gymkhanabk;
+        font-size: 12px;
+        color:white;
+    }
+    
+    
+    .menu{
+        display:none;
+        position: absolute;
+        left:40%;
+        top:7%;
+        
+    }
+    
+    
+    @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+     .homemenu {
+        width: 100%;
+        font-size: 1em;
+        font-family: arial;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        background-color: rgb(31, 77, 75);
+         color:white;
+         text-align: center;
+          font-family: gymkhanabk;
+    }
+  
+        
+   
+     @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    .galeriamenu{
+        
+        width: 100%;
+        font-size: 1em;
+        font-family: arial;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        background-color:rgb(31, 77, 75);
+        color:white;
+        text-align: center;
+        font-family: gymkhanabk;
+      
+        
+    }
+    @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    .provedormenu{
+        width: 100%;
+        font-size: 1em;
+        font-family: arial;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        background-color:rgb(31, 77, 75);
+        color:white;
+        text-align: center;
+        font-family: gymkhanabk;
+        
+        
+    }
+     @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    .contactmenu{
+        width: 100%;
+        font-size: 1em;
+        font-family: arial;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        background-color:rgb(31, 77, 75);
+        color:white;
+        text-align: center;
+         font-family: gymkhanabk;
+    }
+    #menuu{
+        display:none;
+    }
+}
+
+
+   }
+
+
+@media screen and (max-width: 2000px) {
+        
+        .col_1 {width: 8.33%;}
+        .col_2 {width: 16.66%;}
+        .col_3 {width: 25%;}
+        .col_4 {width: 33.33%;}
+        .col_5 {width: 41.66%;}
+        .col_6 {width: 50%;}
+        .col_7 {width: 58.33%;}
+        .col_8 {width: 66.66%;}
+        .col_9 {width: 75%;}
+        .col_10 {width: 83.33%;}
+        .col_11 {width: 91.66%;}
+        .col_12 {width: 100%;}
+    
+    [class*="col_"] {
+        float: left;
+    }
+    
+}
+
+
+@media screen  and (min-width:500px) and (max-width: 1024px) {
+    
+        .colt_1 {width: 12.5%;}
+        .colt_2 {width: 25%;}
+        .colt_3 {width: 37.5%;}
+        .colt_4 {width: 50%;}
+        .colt_5 {width: 62.5%;}
+        .colt_6 {width: 75%;}
+        .colt_7 {width: 87.5%;}
+        .colt_8 {width: 100%;}  
+    
+    [class*="colt_"] {
+        float: left;
+    }
+   
+    header{
+       width:100%;
+        height:170px;
+        background-color: rgb(31, 77, 75);
+        text-align: center;
+    }
+    
+    .torga{
+        position:absolute;
+        left:2%;
+        width:20%;
+        top:2%;
+        
+        }
+    #nomevot{
+        display:none;
+    }
+  
+    .botao{
+        display:none;
+    }
+    
+    
+    .menu{ display:none;}
+    
+    #menuu{
+        
+        float:right;
+    }
+    
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+        text-align: left;
+}
+
+li {
+    float: left;
+}
+
+    @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: gymkhanabk;
+}
+
+li a:hover {
+    background-color: rgb(231, 99, 25);
+}
+    
+    
+    
+    
+    .lemam{
+        background-color: rgb(31, 77, 75);
+        width:100%;
+        height:2050px;
+        
+    }
+    .foto{
+        width:110%;
+        height:450px;
+    }
+    
+    @font-face{
+    font-family: IstokRegular;
+ src: url(
+    IstokRegular.ttf) ;  }
+    .slogan{
+        color:white;
+        position:absolute;
+        top:35%;
+        right:5%;
+        font-family:IstokRegular;
+        font-size: 30px;
+        
+        
+    }
+    @font-face{
+    font-family: TauriRegular;
+ src: url(
+    TauriRegular.ttf) ;  }
+    .slogan1{
+         color:white;
+        position:absolute;
+        top:60%;
+        right:10%;
+        font-family:TauriRegular;
+        font-size: 30px;
+    
+ }
+    @font-face{
+    font-family: GoblinOne;
+ src: url(
+    GoblinOne.ttf) ;  }
+    .vota{
+      color: rgb(231, 99, 25); 
+        font-family: GoblinOne;
+        font-size: 50px;
+        display:inline-block;
+        
+        
+    }
+    
+    .votanome{
+        display:inline-block;
+        text-decoration: underline;
+    }
+    
+    
+   
+   
+    @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    .dados{
+        color:white;
+        position:absolute;
+        top:110%;
+        font-family: gymkhanabk;
+        background-color:rgba(31, 77, 75);
+      font-size: 20px;
+padding:50px;
+    
+    }
+    
+  
+
+    
+    
+    
+    
+     @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+  #titulod{
+        position:absolute;
+        left:38%;
+        font-family: gymkhanabk;
+        font-size:30px;
+       margin-top: 10px;
+      color: rgb(231, 99, 25);
+      top:98%;
+      left:50%;
+      text-decoration: underline;
+         
+      
+    } 
+    #titulod:hover{
+        background-color: rgb(231, 99, 25);
+        color: white;
+    }
+     @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    a{
+        color:rgb(231, 99, 25);
+        font-family: gymkhanabk;
+        
+    }
+     #lamegom{
+        width:100%;
+        height:900px;
+        background-color:rgb(31, 77, 75);
+       
+    }
+    @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    h2 {
+	margin: 0 0 .2em;
+        font-family: gymkhanabk;
+        color:rgb(231, 99, 25);
+        text-align: center;
+         text-decoration: underline;
+}
+
+h2 em {
+	color: #999999;
+}
+    h2:hover{
+         background-color: rgb(231, 99, 25);
+        color: white;
+        
+    }
+    
+.imagem {
+	border: solid 1px #ccc;
+	width: 100%;
+	height: 400px;
+	padding: 5px;
+}
+
+.thumbs img {
+	border: solid 1px #ccc;
+	width: 250px;
+	height: 200px;
+	padding: 4px;
+}
+
+.thumbs img:hover {
+	border-color: #ff9900;
+}
+    
+    
+    #provedorm{
+        width:100%;
+        height:900px;
+        background-color:rgb(31, 77, 75);
+    
+    }
+    
+    @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    .ptexto{
+        font-family: gymkhanabk;
+        color:white;
+    padding: 100px;
+        font-size: 20px;
+
+        
+    }
+     @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    .pnome{
+        text-align: center;
+         font-size:25px;
+        font-family: gymkhanabk;
+        color:rgb(231, 99, 25);
+        position:absolute;
+        left:40%;
+        text-decoration: underline;
+    }
+    
+    .pnome:hover{
+         background-color: rgb(231, 99, 25);
+        color: white;
+    }
+    
+    
+    @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    #votarlamego{
+        width:100%;
+        height:1500px;
+        background-color: rgb(31, 77, 75);
+        color:white;
+        font-family: gymkhanabk;
+        font-size: 15px;
+    }
+   
+     @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    .razoes{
+         font-family: gymkhanabk;
+        color:rgb(231, 99, 25);
+        text-align: center;
+        width:100%;
+        text-decoration: underline;
+        font-size: 25px;
+        }
+    .razoes:hover{
+        background-color:rgb(231, 99, 25);
+        color:white;
+    }
+@font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    .razoest{
+       font-size: 20px;
+padding:50px; 
+        font-family: gymkhanabk;
+    }
+    
+   @font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
+    footer{
+        
+        width:100%;
+        height:25px;
+        background-color: rgb(231, 99, 25);
+       font-family: gymkhanabk;
+        color:white;
+    }
+}
+
+
