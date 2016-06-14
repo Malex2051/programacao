@@ -2,7 +2,7 @@ $(function() {
     
    $(".botao").click(function(){
     $(".menu").slideToggle("slow");
-       $(".Nomem").css("display","none");
+      
 });
     $(".thumbs a").click(function() {
 		var path = $(this).attr("href");
