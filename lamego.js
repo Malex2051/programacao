@@ -1,4 +1,5 @@
 $(function() {
+     $("#menuh").hide();
     
    $(".botao").click(function(){
     $(".menu").slideToggle("slow");
