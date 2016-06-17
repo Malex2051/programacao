@@ -14,7 +14,10 @@ html, body {
 }
 
 
-
+@font-face{
+    font-family: gymkhanabk;
+ src: url(
+    gymkhanabk.ttf) ;  }
 @media screen and (max-width: 500px) {
     
    .colm_1 {width: 20%;}
@@ -27,21 +30,20 @@ html, body {
         float: left;
     }
     
-   @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+  
     .Nomem{
-        color:white;
+        color:rgb(42, 68, 83);
         position:absolute;
         top:70%;
         left:5%;
         font-family: gymkhanabk;
-        font-size: 17px;
+        font-size: 25px;
     }
    
+    
+   
     #nomevot a{
-        color:rgb(231, 99, 25);
+        color:White;
         font-size:30px;
       
         
@@ -54,11 +56,13 @@ html, body {
     }
     
     .torga{
+        display:none;
+    }
+    .multim{
         position:absolute;
-        left:2%;
         width:35%;
         top:2%;
-        
+        left:1%;
     }
      .foto1{
         position:absolute;
@@ -78,16 +82,14 @@ html, body {
    
     .foto{display:none;}
     
-    @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+    
     #titulod{
-        position:absolute;
-        left:38%;
+        background-color:rgb(42, 68, 83);
+        text-align: center;
         font-family: gymkhanabk;
         font-size:30px;
       margin-bottom: 25px;
+        Color:white;
         
     }
     
@@ -97,10 +99,7 @@ html, body {
         background-color: rgb(197, 187, 162);
     }
    
-    @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+    
     .dados{
         color:rgb(42, 68, 83);
         font-family: gymkhanabk;
@@ -127,12 +126,18 @@ padding:50px;
     
     }
     
+    .slogan{
+        display:none;
+    }
+    .vota{
+        display:none;
+    }
+    
+    .votanome{
+        display:none;
+    }
     
     
-    @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
     a{
         color:rgb(42, 68, 83);
         font-family: gymkhanabk;
@@ -144,26 +149,21 @@ padding:50px;
     
     }
     
-    @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+    
     .ptexto{
         font-family: gymkhanabk;
         color:rgb(42, 68, 83);
         padding:25px;
         
     }
-     @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+    
     .pnome{
         text-align: center;
         color:white;
          font-size:25px;
         font-family: gymkhanabk;
-        color:rgb(42, 68, 83);
+        background-color:rgb(42, 68, 83);
+        
     }
     .tituloform{
         width:100%;
@@ -185,7 +185,7 @@ padding:50px;
         color: rgb(42, 68, 83);
         margin-left: auto;
         margin-right: auto;
-        font-size:25px;
+        font-size:15px;
         background-color: rgb(197, 187, 162);
     }
     .formulario {
@@ -206,20 +206,18 @@ padding:50px;
     
     #lamegom{
         width:100%;
-        height:700px;
+        height:2500px;
         background-color:rgb(197, 187, 162);
        
     }
-     @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+     
     h2 {
 	margin: 0 0 .2em;
         font-family: gymkhanabk;
-        color:rgb(42, 68, 83);
+        background-color:rgb(42, 68, 83);
         text-align: center;
         padding-top: 20px;
+        color:white;
 }
 
 h2 em {
@@ -235,8 +233,8 @@ h2 em {
 
 .thumbs img {
 	border: solid 1px #ccc;
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 	padding: 4px;
 }
 
@@ -249,40 +247,32 @@ h2 em {
         top:5%;
         
     }
-      @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+      
     #votarlamego{
         width:100%;
-        height:1500px;
+        height:4700px;
         background-color: rgb(197, 187, 162);
-        color:white;
-        font-family: gymkhanabk;
-        font-size: 15px;
+        font-size:10px;
+      
+    
     }
    
-     @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+     
     .razoes{
          font-family: gymkhanabk;
-        color:rgb(42, 68, 83);
+        background-color:rgb(42, 68, 83);
         text-align: center;
-        width:100%;
-        font-size: 20px;
-        padding-top: 25px;
+        color:White;
+            width:100%;
+        font-size: 10px;
     }
     .razoest{
-        padding:25px;
-        color:rgb(42, 68, 83);
+        font-family: gymkhanabk;
+       color:rgb(42, 68, 83);
+        font-size:10px;
     }
     
-   @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+   
     footer{
         
         width:100%;
@@ -290,10 +280,7 @@ h2 em {
         background-color: rgb(42, 68, 83);
        
     }
-     @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+  
     .ftm{
         font-family: gymkhanabk;
         font-size: 12px;
@@ -318,10 +305,7 @@ h2 em {
     }
     
     
-    @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+  
      .homemenu {
         width: 100%;
         font-size: 1em;
@@ -337,10 +321,7 @@ h2 em {
   
         
    
-     @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+    
     .galeriamenu{
         
         width: 100%;
@@ -374,10 +355,7 @@ h2 em {
         
         
     }
-     @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+   
     .contactmenu{
         width: 100%;
         font-size: 1em;
@@ -465,17 +443,14 @@ li {
     float: left;
 }
 
-    @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+    
 li a {
     display: inline-block;
     color:white;
     text-align: center;
     padding: 5px 7px;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 13px;
     font-family: gymkhanabk;
 }
 
@@ -549,10 +524,7 @@ li a:hover {
         background-color: rgb(197, 187, 162);
     }
    
-    @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+    
     .dados{
         color:rgb(42, 68, 83);
         
@@ -575,10 +547,7 @@ padding:50px;
     
     
     
-     @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+    
   #titulod{
         font-family: gymkhanabk;
         font-size:30px;
@@ -590,10 +559,7 @@ padding:50px;
       
     } 
     
-     @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+   
     a{
         color:rgb(231, 99, 25);
         font-family: gymkhanabk;
@@ -608,10 +574,7 @@ padding:50px;
     
     }
     
-    @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+    
     .ptexto{
         font-family: gymkhanabk;
         color:rgb(42, 68, 83);
@@ -620,10 +583,7 @@ padding:50px;
 
         
     }
-     @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+     
     .pnome{
         text-align: center;
          font-size:25px;
@@ -637,23 +597,17 @@ padding:50px;
    
     
     
-    @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+    
     #votarlamego{
         width:100%;
-        height:1850px;
+        height:2850px;
         background-color: rgb(197, 187, 162);
         color:rgb(42, 68, 83);
         font-family: gymkhanabk;
         font-size: 15px;
     }
    
-     @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+    
     .razoes{
          font-family: gymkhanabk;
         color:white;
@@ -665,10 +619,7 @@ padding:50px;
         background-color: rgb(42, 68, 83);
         }
    
-@font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+
     .razoest{
        font-size: 20px;
 padding:50px; 
@@ -721,10 +672,7 @@ padding:50px;
         background-color:rgb(197, 187, 162);
        
     }
-    @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+    
     h2 {
 	margin: 0 0 .2em;
         font-family: gymkhanabk;
@@ -757,10 +705,7 @@ h2 em {
 	border-color: #ff9900;
 }
     
-   @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+   
     footer{
         
         width:100%;
@@ -770,8 +715,9 @@ h2 em {
         color:white;
     }
 
-    }
+     .multim{display:none;}
 
+}
 @media screen and (min-width:1024px) and (max-width: 2000px) {
         
         .col_1 {width: 8.33%;}
@@ -791,6 +737,7 @@ h2 em {
         float: left;
     }
     
+   
     header{
        width:100%;
         height:170px;
@@ -814,6 +761,7 @@ h2 em {
         display:none;
     }
     
+    .Nomem{display:none;}
     
     .menu{ display:none;}
     
@@ -831,20 +779,18 @@ h2 em {
     overflow: hidden;
         text-align: left;
 }
+     .multim{display:none;}
 
 li {
     float: left;
 }
 
-    @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+   
 li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 10px 12px;
+    padding: 8px 10px;
     text-decoration: none;
     font-size: 20px;
     font-family: gymkhanabk;
@@ -922,11 +868,7 @@ li a:hover {
         background-color: rgb(197, 187, 162);
         color:rgb(42, 68, 83);
     }
-   
-    @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+
     .dados{
         color:rgb(42, 68, 83);
         position:absolute;
@@ -952,10 +894,7 @@ padding:50px;
     
     
     
-     @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+    
   #titulod{
         position:absolute;
         font-family: gymkhanabk;
@@ -981,10 +920,7 @@ padding:50px;
     
     }
     
-    @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+ 
     .ptexto{
         font-family: gymkhanabk;
         color:rgb(42, 68, 83);
@@ -993,10 +929,7 @@ padding:50px;
 
         
     }
-     @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+     
     .pnome{
         text-align: center;
          font-size:40px;
@@ -1009,23 +942,17 @@ padding:50px;
     
     
     
-    
-    @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+  
     #votarlamego{
         width:100%;
-        height:2160px;
+        height:2360px;
         background-color: rgb(197, 187, 162);
         color:rgb(42, 68, 83);
         font-family: gymkhanabk;
         font-size: 30px;
     }
    
-     @font-face{
-    font-family: gymkhanabk;
- src: url(
+    
     gymkhanabk.ttf) ;  }
     .razoes{
          font-family: gymkhanabk;
@@ -1038,10 +965,7 @@ padding:50px;
          background-color: rgb(42, 68, 83);
         }
     
-@font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+
     .razoest{
        font-size: 30px;
 padding:50px; 
@@ -1084,7 +1008,7 @@ padding:50px;
         border: 1px solid #B5B5B5;
         height:900px;
     }
-    
+    .multim{visibility:none;}
     
     
     
@@ -1095,10 +1019,7 @@ padding:50px;
         text-align: center;
        
     }
-    @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+   
     h2 {
 	margin: 0 0 .2em;
         font-family: gymkhanabk;
@@ -1132,10 +1053,7 @@ h2 em {
 	border-color: #ff9900;
 }
     
-   @font-face{
-    font-family: gymkhanabk;
- src: url(
-    gymkhanabk.ttf) ;  }
+  
     footer{
         
         width:100%;
