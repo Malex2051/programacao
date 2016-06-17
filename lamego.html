@@ -56,9 +56,10 @@
                 <ul>
         <li><a href="#dados"> Quem Sou </a></li>
         <li><a href="#titulod">Dados </a></li>
-        <li><a href="#lamegom"> Galeria</a></li>
         <li><a href="#provedorm"> Provedor  </a></li>
-        <li><a href="#votarlamego"> Objectivos </a></li></ul>
+        <li><a href="#votarlamego"> Objectivos </a></li>
+                   <li><a href="#tituloform"> Formulário</a></li>
+                   <li><a href="#lamegom"> Galeria</a></li></ul>
             </div>
                         </div>
             
@@ -89,14 +90,13 @@
         <div class=dadosect> 
                     <div id="titulod">Dados:</div>
                     <div class="dados"> <br>
-             <a>Nome</a>: João Lamego Taveira Gomes <br>
- <a>Idade</a>: 24<br>
- <a>Data de nascimento</a>: 16 de Setembro de 1991<br>
- <a>Localidade</a>: Braga/Coimbra<br>
- <a>Currículo</a>:<br>
-                        - 12ºano concluído na Escola Secundária Dona Maria II<br>
-                        - Frequentou o curso de Engenharia Informática no Instituto Superior de Engenharia de Coimbra<br>
- - Frequentou workshops e conferências de Modelação 3D<br>
+             <a id="dados1">Nome</a>: João Lamego Taveira Gomes <br><br>
+ <a id="dados1">Idade</a>: 24<br><br>
+ <a id="dados1">Localidade</a>: Braga/Coimbra<br><br>
+ <a id="dados1">Currículo</a>:<br>
+                        - 12ºano concluído na Escola Secundária Dona Maria II<br><br>
+                        - Frequentou o curso de Engenharia Informática no Instituto Superior de Engenharia de Coimbra<br><br>
+ - Frequentou workshops e conferências de Modelação 3D<br><br>
  - Actualmente encontra-se a frequentar o curso de Multimédia no Instituto Superior Miguel Torga
 </div>
            
@@ -106,9 +106,9 @@
         
         
             
-            <main role="main" class="colm_5">
+            <main role="main">
             
-               
+               <div class="col_12 colt_8 colm_5">
             <div id="provedorm">
                <div class="pnome"> Provedor do estudante </div>
                 <br>
@@ -117,7 +117,7 @@
                  O Provedor do Estudante tem como missão principal, sem poder de decisão, defender e promover os direitos e os interesses legítimos dos estudantes do Instituo Superior Miguel Torga, em situações de âmbito universitário, através de uma atuação independente, imparcial e confidencial.<br><br>Os estudantes podem, individual ou coletivamente, apresentar ao provedor queixas relacionadas com a ação ou omissão dos órgãos, serviços e agentes da Universidade e das suas Unidades Orgânicas, bem como formular sugestões, nomeadamente sobre questões pedagógicas ou relativas à ação social.</div></div>
                 
                 </div>
-                    
+                  </div>  
                    
             
             
@@ -139,9 +139,46 @@ Comigo na função de provedor, certificar-me-ei de que a ligação Aluno-Instit
                      
                      
                      
+                <div class="col_12 colt_8 colm_5">
+                                            
+
+                                                <div id="tituloform" class="tituloform">
+                    Formulário
+                    
+                    </div> 
+                                                
+                                            
+                                        </div>
+                
                      
+                <div class="col_12 colt_8 colm_5">
+                                            <form name="formulario" id="formulario" onsubmit="return validateForm()" method="post" class="formulario">
+
+                                                 <div class="textoform">Existe algo que nao foi abordado e que penses que o deveria ser? <br> Por favor, não hesites em nos alertar! Contamos com a ajuda de todos para tornar melhor o curso de Multimédia.</div> 
+                                                
+                                            
+                                       
+                                                
+                                                            Nome: <input type="text" name="firstname"  size="15" maxlength="10" placeholder="Vitorino"  autocomplete="on" class="formt">
+                                                            <br><br>
+                                                            Apelido: <input type="text" name="lastname"  size="20" maxlength="20" placeholder="Moulinglacio"  autocomplete="on" class="formt">
+                                                            <br><br>
+                                                            E-mail: <input type="email" name="email" placeholder="Vitorino@example.com" size="20" maxlength="30"  autocomplete="on" class="formt">
+                                                            <br><br>
+                                                            Assunto: <br><textarea name="assunto" id="info" placeholder="Escreva aqui..." rows="10" cols="30" class="assuntoform"></textarea>
+                                                            <br><br>
+                                                            <input type="submit" value="Enviar" class="botaoenvio">
+
+                                            </form>
+                                        </div>     
                      
-                     
+                
+                
+                
+                
+                
+                <div class="col_12 colt_8 colm_5">
+                
                       <div id="lamegom">
                   <h2> Galeria de Imagens</h2>
                     <p>
@@ -156,7 +193,7 @@ Comigo na função de provedor, certificar-me-ei de que a ligação Aluno-Instit
                     </div>
                     
                      
-                     
+                </div>
                      
                  </div>    
                      
